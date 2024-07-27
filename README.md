@@ -169,7 +169,7 @@ MQTT（Message Queuing Telemetry Transport）是一种轻量级、基于发布-�
 **Publish：**发布
 
 在对应主题上发布新的消息。  
-![image-20240725132821170](Pictures/MQTT运行框架.png)
+![image-20240725132821170](https://github.com/lqr0323/RSOC-2024-Day5/blob/main/MQTT%E8%BF%90%E8%A1%8C%E6%A1%86%E6%9E%B6.png))
 
 ### 1.2.3 阿里云搭建
 
