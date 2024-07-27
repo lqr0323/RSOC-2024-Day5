@@ -177,57 +177,29 @@ MQTT（Message Queuing Telemetry Transport）是一种轻量级、基于发布-�
 
 进入后进行注册（如果你是新账户的话）并登录，然后选择管理控制台
 
-![image-20240725184110285](https://github.com/lqr0323/RSOC-2024-Day5/blob/main/image-20240725184110285.png)
-
 在管理控制台下选择公共实例
-
-![image-20240725184217401](Pictures/image-20240725184217401.png)
 
 点击创建产品
 
-<img src="Pictures/image-20240725184400238.png" alt="image-20240725184400238" style="zoom:50%;" />
-
 按要求输出，产品名称可以随意填写
 
-![image-20240725184517799](Pictures/image-20240725184517799.png)
-
-然后返回，点击设备，创建设备
-
-![image-20240725184835993](Pictures/image-20240725184835993.png)
+然后返回，点击设备，创建设备  
 
 创建完成后可以新建一个物模型变量
 
-![image-20240725185053198](Pictures/image-20240725185053198.png)
-
-![image-20240725185216703](Pictures/image-20240725185216703.png)
-
 然后点击发布上线，然后就可以在功能定义这里看到刚刚定义的功能了。记得在Topic类列表中修改自定义user/get的权限改为订阅和发布，这样子我们才能通过这个Topic进行测试。
-
-![image-20240725185630684](Pictures/image-20240725185630684.png)
 
 调试功能，在课上讲。然后就是配置menuconfig。
 
 打开RW007
 
-![MQTT配置1](Pictures/MQTT配置1.png)
-
 在软件包中找到阿里云的软件包
-
-![MQTT配置2](Pictures/MQTT配置2.png)
 
 使能后需要修改里面的一些参数
 
-![MQTT配置3](Pictures/MQTT配置3.png)
-
 在阿里云中找到这些参数并修改进去
 
-![image-20240725192141241](Pictures/image-20240725192141241.png)
-
-![image-20240725192218149](Pictures/image-20240725192218149.png)
-
-然后再打开ENV末尾的使能样例，告诉我们如何使用。
-
-[代码文件](./Docx/MQTT_Example.c)
+然后再打开ENV末尾的使能样例，告诉我们如何使用。  
 
 ### 1.2.4 拓展
 
